@@ -69,5 +69,5 @@ pm2 start index.js --name gitcatch
 
 ## Done!
 
-Rigth now I developing (Basic-Nice)[https://github.com/powerdot/Basic-Nice-CICD] CICD based on this project.  
+Rigth now I developing (https://github.com/powerdot/Basic-Nice-CICD)[Basic-Nice] CICD based on this project.  
 Contribute your code and help to upgrade project.
