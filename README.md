@@ -62,9 +62,9 @@ Enter your port, secret, and base path (projects dir).
 Save and close (CTRL+X): Y
 
 ## Sixth
-Init the project:
+Install packages:
 ```
-npm init
+npm i
 ```
 Run GitHubCatcher
 ```
