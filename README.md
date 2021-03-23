@@ -3,7 +3,7 @@
 
 
 ## First
-Install PM2 to controll procceses
+Install PM2 to controll processes
 ```
 npm i pm2 -g
 ```
