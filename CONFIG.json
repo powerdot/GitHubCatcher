@@ -1,0 +1,14 @@
+{
+    "settings": {
+        "port": 2021,
+        "base_path": "/node/",
+        "secret": "my_secret_word"
+    },
+
+    "projets": {
+        "this-is-my-project": {
+            "pm2": "my_project",
+            "branch": "master"
+        }
+    }
+}
