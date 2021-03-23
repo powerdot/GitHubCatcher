@@ -71,3 +71,7 @@ pm2 start index.js --name gitcatch
 
 Rigth now I developing [Basic-Nice](https://github.com/powerdot/Basic-Nice-CICD) CICD based on this project.  
 Contribute your code and help to upgrade project.
+
+# For Private Projects
+
+[Setup](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) certificates.
