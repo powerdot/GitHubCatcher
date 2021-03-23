@@ -1,6 +1,21 @@
 # GitHubCatcher
 
+# Wtf
 
+Can fetch and deploy:
+- Basic NodeJS project (simple-backend)
+- Build static files and move it to public backend folder for Vue (vue-frontend)
+- Build and serve nuxt project (nuxt-universal)
+
+On your own server!
+
+Requirements:
+- NodeJS >= 10
+- NPM (globally)
+- PM2 (globally)
+- Git
+
+# Installing
 
 ## First
 Install PM2 to controll processes
@@ -27,10 +42,11 @@ mkdir node
 ```
 
 ## Fourth
-Clone here your github existing project.  
+Clone here your github existing project to base path.  
 ```
 git clone https://github.com/USERNAME/PROJECTNAME.git
 ```
+**This step needed for each project. This is initial deployment.**
 
 ## Fifth
 Configure GitHubCatcher.
@@ -60,6 +76,17 @@ Enter your port, secret, and base path (projects dir).
 }
 ```
 Save and close (CTRL+X): Y
+
+- Project is a object that indexed as GitHub project name, for example: https://github.com/powerdot/`GitHubCatcher`/
+- `pm2` key is a name of process in PM2. Need to stop and restart project.
+- `branch` key is a name of branch to listen.  
+  
+Optional:
+- `path` key is a subdir of your `base_path`: /node/`here_is_path`/
+- `git_link_path` key is a GitHub path to fetch your project, example: `/powerdot/GitHubCatcher`. *For vue-frontend, nuxt-universal*
+- `build_command` key is a build-step termimal command, basicly: `npm start build`. *For vue-frontend, nuxt-universal*
+- `temp_name` key is a temprary folder name to build your app and then move it to main directory. *For vue-frontend*
+- 
 
 ## Sixth
 Install packages:
