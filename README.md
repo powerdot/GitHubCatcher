@@ -62,6 +62,10 @@ Enter your port, secret, and base path (projects dir).
 Save and close (CTRL+X): Y
 
 ## Sixth
+Init the project:
+```
+npm init
+```
 Run GitHubCatcher
 ```
 pm2 start index.js --name gitcatch
