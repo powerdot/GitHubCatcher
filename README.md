@@ -77,7 +77,7 @@ Enter your port, secret, and base path (projects dir).
 ```
 Save and close (CTRL+X): Y
 
-- Project is a object that indexed as GitHub project name, for example: https://github.com/powerdot/`GitHubCatcher`/
+- Project is a object that indexed as GitHub project name, for example: github.com/powerdot/`GitHubCatcher`/
 - `pm2` key is a name of process in PM2. Need to stop and restart project.
 - `branch` key is a name of branch to listen.  
   
