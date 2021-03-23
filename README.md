@@ -86,7 +86,6 @@ Optional:
 - `git_link_path` key is a GitHub path to fetch your project, example: `/powerdot/GitHubCatcher`. *For vue-frontend, nuxt-universal*
 - `build_command` key is a build-step termimal command, basicly: `npm start build`. *For vue-frontend, nuxt-universal*
 - `temp_name` key is a temprary folder name to build your app and then move it to main directory. *For vue-frontend*
-- 
 
 ## Sixth
 Install packages:
