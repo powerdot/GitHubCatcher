@@ -67,7 +67,7 @@ Enter your port, secret, and base path (projects dir).
         "secret": "my_secret_word"
     },
 
-    "projets": {
+    "projects": {
         "PROJECTNAME": {
             "pm2": "my_project",
             "branch": "master"
